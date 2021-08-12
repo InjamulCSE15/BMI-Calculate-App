@@ -10,7 +10,7 @@ function bmiCalculator() {
 
     if(cm == '' || kg.value == ''){
         // alert('Please enter your cm value.');
-        document.getElementById('result').innerHTML = `<strong>Please enter your cm value.</strong>`
+        document.getElementById('result').innerHTML = `<strong>Please enter your cm value!</strong>`
     }
     else{
     bmi = kg /(newCm * newCm);
