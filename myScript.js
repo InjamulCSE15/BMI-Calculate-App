@@ -9,8 +9,8 @@ function bmiCalculator() {
     var newCm = (cm/100);
 
     if(cm == '' || kg.value == ''){
-         alert('Please enter your cm value.');
-        // document.getElementById('result').innerHTML = `<strong>Please enter your cm value.</strong>`
+        // alert('Please enter your cm value.');
+        document.getElementById('result').innerHTML = `<strong>Please enter your cm value.</strong>`
     }
     else{
     bmi = kg /(newCm * newCm);
