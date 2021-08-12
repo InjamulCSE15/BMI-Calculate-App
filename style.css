@@ -1,7 +1,20 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Patua One', cursive;
+}
+
+h1 {
+    padding-top: 15px;
+    text-align: center;
+}
 
 #container {
+    text-align: center;
     width: 375px;
-    height: 75vh;
+    height: 100vh;
     margin: auto;
     background-color: yellow;
     padding: 5px 10px;
@@ -17,4 +30,28 @@
     width: 50%;
     height: 25px;
     margin-top: 30px;
+}
+
+#heightguide {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#result {
+    font-size: 35px;
+    margin-left: 90px;
+    color: blue;
+}
+
+#submit {
+    width: 50%;
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Patua One', cursive;
+
 }
