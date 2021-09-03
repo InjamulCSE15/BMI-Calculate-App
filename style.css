@@ -57,7 +57,7 @@ strong {
     color: rgb(255, 255, 255);
     font-size: 25px;
     font-family: 'Patua One', cursive;
-
+    cursor: pointer;
 }
 
 footer {
